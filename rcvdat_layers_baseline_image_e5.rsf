@@ -1,0 +1,12 @@
+3.2-git	acfd_rtm_mpi.x	earsald/STLIDWT/SITo_tyra01_sparse:	earsald@login2.arc4.leeds.ac.uk	Thu Sep 12 17:42:14 2024
+
+	d2=4
+	n2=76
+	o1=0
+	n3=1
+	o2=0
+	data_format="native_float"
+	esize=4
+	in="./rsf_binary_files/rcvdat_layers_baseline_image_e5.rsf@"
+	d1=4
+	n1=276

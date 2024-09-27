@@ -1,0 +1,21 @@
+3.2-git	model1.x	earsald/STLIDWT/SITo_tyra01_sparse:	earsald@login2.arc4.leeds.ac.uk	Thu Sep 12 17:36:32 2024
+
+	d2=4
+	n2=76
+	o1=0
+	o2=0
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	d1=4
+	n1=276
+	in="stdin"
+
+3.2-git	sfput	earsald/STLIDWT/SITo_tyra01_sparse:	earsald@login2.arc4.leeds.ac.uk	Thu Sep 12 17:36:32 2024
+
+	in="./rsf_binary_files/vp_layers_baseline.rsf@"
+	label1=z
+	data_format="native_float"
+	unit1=m
+	label2=x
+	unit2=m

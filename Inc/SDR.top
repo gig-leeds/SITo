@@ -1,0 +1,34 @@
+# Fix Envionment (do print statements as warning for changes)
+
+# Some Usefull Templates
+I = ./Inc
+R = ./Fig
+S = ./Src
+C = ./Scr
+B = ./Bin
+P = ./Par
+O = ./Obj
+M = ./Mod
+D = ./Dat
+
+${O}:
+	mkdir ${O}
+${B}:
+	mkdir ${B}
+${M}:
+	mkdir ${M}
+${I}:
+	mkdir ${I}
+${C}:
+	mkdir ${C}
+${P}:
+	mkdir ${P}
+${D}:
+	mkdir ${D}
+${S}:
+	mkdir ${S}
+${R}:
+	mkdir ${R}
+
+none=
+none: ${O} ${B} ${M} ${I} ${C} ${P} ${D} ${S} ${R}

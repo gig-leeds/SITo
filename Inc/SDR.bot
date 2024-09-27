@@ -1,0 +1,25 @@
+# Closing Commands
+
+# To compile Binaries
+#flags=-fast -inline-level=2
+#flags=-fast -inline-level=2 -fpp -openmp
+#£$O/%.o: $S/%.f90
+#	make ${$*.deps} none
+#	ifort -o $@ $< -c ${flags} -I${RSFROOT}/include -I${FFTWROOT}/include -module $M -L${RSFROOT}/lib -L${FFTWROOT}/lib -lrsff90 -lrsf -lm -lfftw3f
+#
+#$B/%.x: $O/%.o
+#	make ${$*.deps} none
+#	ifort -o $@ $O/$*.o ${$*.deps} ${none} -openmp -L${RSFROOT}/lib -L${OPENMPROOT}/lib -lrsff90 -lrsf #-lfftw3f -lcudart
+#
+#none=
+#none:
+#
+#%.view: $R/.vpl
+#	sfpen $<
+#$R/%.view: $R/.vpl
+#	sfpen $<
+#
+# Kill Nothing
+.SECONDARY:
+#
+#

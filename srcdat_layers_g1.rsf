@@ -1,0 +1,82 @@
+3.2-git	sfspike	earsald/STLIDWT/SITo_tyra01_sparse:	earsald@login2.arc4.leeds.ac.uk	Thu Sep 12 17:36:33 2024
+
+	o1=0
+	label1="Time"
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	unit1="s"
+	d1=0.0004
+	n1=4000
+	in="stdin"
+
+3.2-git	sfricker1	earsald/STLIDWT/SITo_tyra01_sparse:	earsald@login2.arc4.leeds.ac.uk	Thu Sep 12 17:36:33 2024
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.2-git	sfscale	earsald/STLIDWT/SITo_tyra01_sparse:	earsald@login2.arc4.leeds.ac.uk	Thu Sep 12 17:36:33 2024
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.2-git	sfput	earsald/STLIDWT/SITo_tyra01_sparse:	earsald@login2.arc4.leeds.ac.uk	Thu Sep 12 17:36:33 2024
+
+	d2=1.
+	unit2=-
+	data_format="native_float"
+	in="stdout"
+	o2=1
+	label1=t
+	label2=source
+	unit1=s
+	in="stdin"
+
+3.2-git	sfbandpass	earsald/STLIDWT/SITo_tyra01_sparse:	earsald@login2.arc4.leeds.ac.uk	Thu Sep 12 17:36:33 2024
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.2-git	sftransp	earsald/STLIDWT/SITo_tyra01_sparse:	earsald@login2.arc4.leeds.ac.uk	Thu Sep 12 17:36:33 2024
+
+	o1=1
+	d2=0.0004
+	n2=4000
+	label1="source"
+	o2=0
+	data_format="native_float"
+	label2="t"
+	esize=4
+	in="stdout"
+	unit1="-"
+	unit2="s"
+	d1=1
+	n1=1
+	in="stdin"
+
+3.2-git	sfspray	earsald/STLIDWT/SITo_tyra01_sparse:	earsald@login2.arc4.leeds.ac.uk	Thu Sep 12 17:36:33 2024
+
+	n3=5
+	data_format="native_float"
+	n4=1
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.2-git	sfput	earsald/STLIDWT/SITo_tyra01_sparse:	earsald@login2.arc4.leeds.ac.uk	Thu Sep 12 17:36:33 2024
+
+	d4=1
+	data_format="native_float"
+	o3=0
+	in="./rsf_binary_files/srcdat_layers_g1.rsf@"
+	o4=0.
+	n4=1
+	label3=experiment
+	unit3=
+	d3=1
